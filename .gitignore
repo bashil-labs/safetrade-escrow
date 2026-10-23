@@ -1,0 +1,11 @@
+# Ignore the uploads folder (so you don't upload user evidence files)
+uploads/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore Mac files
+.DS_Store
+
+# Ignore local database config (if you want to keep passwords secret)
+config/db.php

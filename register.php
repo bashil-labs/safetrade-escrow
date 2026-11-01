@@ -59,7 +59,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <title>Register — SafeTrade</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="bg-auth">
     <div class="container-narrow">
         <div class="card">
             <h1>Create Account</h1>

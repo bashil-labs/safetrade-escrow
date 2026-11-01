@@ -12,7 +12,7 @@ if (isLoggedIn()) {
     <title>Welcome — SafeTrade Escrow</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body style="display: flex; align-items: center; justify-content: center; min-height: 100vh; background: linear-gradient(135deg, #1e3a8a 0%, #0ea5e9 100%);">
+<body class="bg-landing">
 
     <div class="card" style="max-width: 500px; text-align: center; padding: 50px 40px; margin: 20px;">
         

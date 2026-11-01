@@ -462,3 +462,29 @@ textarea {
     border-radius: 8px;
     border: 1px solid #e2e8f0;
 }
+
+/* ============================================
+   CUSTOM BACKGROUND IMAGES
+   ============================================ */
+.bg-landing {
+    /* The 0.8 opacity keeps the text readable over the photo */
+    background-image: linear-gradient(rgba(30, 58, 138, 0.5), rgba(14, 165, 233, 0.5)), url('../assets/img/bg-landing.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-auth {
+    background-image: linear-gradient(rgba(30, 58, 138, 0.5), rgba(14, 165, 233, 0.5)), url('../assets/img/bg-auth.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -52,7 +52,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <title>Login — SafeTrade</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="bg-auth">
     <div class="container-narrow">
         <div class="card">
             <h1>Sign In</h1>
